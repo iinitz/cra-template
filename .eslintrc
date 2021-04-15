@@ -1,0 +1,7 @@
+{
+  "extends": "nss/react",
+  "rules": {
+    "react/react-in-jsx-scope": 0, // disable import React from 'react' in React 17
+    "no-console": 1 // override eslint rules
+  }
+}
